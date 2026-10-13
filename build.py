@@ -207,7 +207,7 @@ support = f"""
 </div></div>
 """
 
-page("index.html", "Mesolog: Hypertrophy Block Training",
+page("index.html", "Mesolog: Hypertrophy Training",
      "Plan mesocycles from your 1RMs, log every set in seconds and review each block. For iPhone, iPad, Mac and Apple Watch.", home, "home")
 page("privacy/index.html", "Privacy Policy · Mesolog", "How Mesolog handles your data: on your device by default, no ads, no tracking.", privacy, "privacy")
 page("terms/index.html", "Terms of Use · Mesolog", "Terms of use for the Mesolog app.", terms, "terms")
