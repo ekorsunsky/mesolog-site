@@ -88,6 +88,17 @@ home = """
     <div class="card"><span class="tag">Import</span><h3>Bring your spreadsheet</h3><p>Already train from an Excel plan? Import it, or start from a template. Export any block back to Excel whenever you like.</p></div>
   </div>
 </div></section>
+
+<section><div class="wrap">
+  <h2>More than the block</h2>
+  <p class="intro">Real training doesn't always follow the plan. Mesolog keeps track of the rest too.</p>
+  <div class="grid">
+    <div class="card"><span class="tag">Extra</span><h3>Log any workout</h3><p>A pull-up day, a second session the same day, a class at the gym. Log the sets in seconds; they count toward your consistency and show next to the day's plan.</p></div>
+    <div class="card"><span class="tag">WOD</span><h3>WODs and benchmarks</h3><p>Build your own For Time, AMRAP, EMOM or interval workouts, or run the classics: Fran, Grace, Cindy, Helen, Murph and more. Every result is saved, Rx or scaled.</p></div>
+    <div class="card"><span class="tag">Timer</span><h3>A proper WOD timer</h3><p>Full-screen clock with a 10-second get-ready, beeps and haptics on every change, a round counter, and Tabata or custom work/rest intervals.</p></div>
+    <div class="card"><span class="tag">Standards</span><h3>How strong are you?</h3><p>Your squat, bench, deadlift, press, row and pull-ups against lifters of your sex and bodyweight, from Beginner to Elite, and how far it is to the next level.</p></div>
+  </div>
+</div></section>
 """
 
 privacy = f"""
@@ -202,6 +213,10 @@ support = f"""
 <p>No. Pick the machine on the exercise card before logging. Each machine has its own 1RM and history, and weeks logged on another machine can be moved with "Move here".</p></details>
 <details><summary>How do I delete my account?</summary>
 <p>Settings → Account → Delete account. It permanently removes your account and all data stored with it.</p></details>
+<details><summary>Where do extra workouts and WODs go?</summary>
+<p>Log one from Train → + Workout. It shows under "Also today" on the Train screen, in Progress → Extra workouts &amp; WODs, and in Program → Workouts, where you'll also find your WODs, the benchmark WODs and the timers.</p></details>
+<details><summary>How are the strength standards worked out?</summary>
+<p>Your best 1RM for each lift (or your best set of strict pull-ups) is compared with lifters of your sex and bodyweight. Intermediate is roughly stronger than half of lifters, Advanced about 80% and Elite about 95%. Bodyweight comes from Apple Health or your answers at set-up.</p></details>
 <details><summary>Can I import my spreadsheet?</summary>
 <p>Yes: Settings → Import from Excel. "Get the Excel template" gives you a file in the exact format, with instructions.</p></details>
 </div></div>
