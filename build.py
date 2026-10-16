@@ -2,7 +2,7 @@
 from pathlib import Path
 
 SUPPORT = "support@mesolog.fit"
-UPDATED = "October 13, 2026"
+UPDATED = "October 15, 2026"
 
 def page(name, title, desc, body, current=""):
     cur = ' aria-current="page"'
@@ -80,7 +80,7 @@ home = """
     <div class="card"><span class="tag">Log</span><h3>One tap, done</h3><p>Tap the weight to fill in today's target, change it if you need to, and mark missed reps set by set. The target stays on screen while you type.</p></div>
     <div class="card"><span class="tag">Plan</span><h3>Blocks that build themselves</h3><p>Start a new block from the last one: rep ranges move along the wave, stale exercises get swap ideas, and 1RMs go up where you earned it.</p></div>
     <div class="card"><span class="tag">Review</span><h3>End-of-block review</h3><p>Volume by week, every lift against its targets, and suggested 1RM updates you can apply with one tap.</p></div>
-    <div class="card"><span class="tag">Watch</span><h3>Apple Watch companion</h3><p>Starting your workout on iPhone opens it on your wrist. Log with the Digital Crown, see heart rate and calories, and pause or finish from either device.</p></div>
+    <div class="card"><span class="tag">Watch</span><h3>Apple Watch companion</h3><p>Starting your workout on iPhone opens it on your wrist. Log with the Digital Crown, pause or finish from either device, and see your live heart rate and calories on the phone's timer.</p></div>
     <div class="card"><span class="tag">Gym</span><h3>Every machine, its own track</h3><p>Hotel gym leg press or your usual one? Each machine keeps its own 1RM, history and setup notes, with photos of the seat settings.</p></div>
     <div class="card"><span class="tag">Health</span><h3>Readiness at a glance</h3><p>Sleep, HRV and resting heart rate from Apple Health, plus weight, body fat and steps, including your treadmill, without double counting.</p></div>
     <div class="card"><span class="tag">Time</span><h3>A timer that takes care of itself</h3><p>Finish a cardio warm-up and Mesolog offers to start lifting. Pause, restart or finish, and the session is saved to Apple Health.</p></div>
@@ -93,9 +93,10 @@ home = """
   <h2>More than the block</h2>
   <p class="intro">Real training doesn't always follow the plan. Mesolog keeps track of the rest too.</p>
   <div class="grid">
-    <div class="card"><span class="tag">Extra</span><h3>Log any workout</h3><p>A pull-up day, a second session the same day, a class at the gym. Log the sets in seconds; they count toward your consistency and show next to the day's plan.</p></div>
+    <div class="card"><span class="tag">Extra</span><h3>Log any workout</h3><p>A pull-up day, a second session the same day, a class at the gym. Log the sets in seconds; it shows up in that week, right between the days you trained, and counts toward your consistency.</p></div>
     <div class="card"><span class="tag">WOD</span><h3>WODs and benchmarks</h3><p>Build your own For Time, AMRAP, EMOM or interval workouts, or run the classics: Fran, Grace, Cindy, Helen, Murph and more. Every result is saved, Rx or scaled.</p></div>
     <div class="card"><span class="tag">Timer</span><h3>A proper WOD timer</h3><p>Full-screen clock with a 10-second get-ready, beeps and haptics on every change, a round counter, and Tabata or custom work/rest intervals.</p></div>
+    <div class="card"><span class="tag">Heart rate</span><h3>No Watch? Use your AirPods</h3><p>Start the timer and Mesolog records the workout on your iPhone, with heart rate from AirPods Pro 3 or a Bluetooth strap, then saves it to Apple Health.</p></div>
     <div class="card"><span class="tag">Standards</span><h3>How strong are you?</h3><p>Your squat, bench, deadlift, press, row and pull-ups against lifters of your sex and bodyweight, from Beginner to Elite, and how far it is to the next level.</p></div>
   </div>
 </div></section>
@@ -131,7 +132,7 @@ privacy = f"""
 <p>If you create an account, we collect your email address to sign you in. Sign-in codes are emailed through our email provider (Resend). We use your email only to sign you in and to answer you if you contact us. We don't send marketing email.</p>
 
 <h2>Apple Health</h2>
-<p>With your permission, Mesolog reads sleep, heart rate variability, resting heart rate, body weight, body fat, steps, walking distance and workouts from Apple Health to show your readiness, your steps and your progress, and to notice when a cardio warm-up ends. It writes your finished strength workouts to Apple Health. Health data:</p>
+<p>With your permission, Mesolog reads sleep, heart rate variability, resting heart rate, body weight, body fat, steps, walking distance and workouts from Apple Health to show your readiness, your steps and your progress, and to notice when a cardio warm-up ends. During a workout it reads your heart rate and active calories (from Apple Watch, AirPods Pro 3 or a heart-rate strap) to show them live. It writes your finished workouts to Apple Health, including that heart rate and calorie data. Health data:</p>
 <ul>
   <li>is read and used on your device only, and is not uploaded to our servers or included in account sync;</li>
   <li>is never used for advertising, never sold, and never shared with third parties;</li>
